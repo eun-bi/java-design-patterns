@@ -12,10 +12,10 @@ public class IDCard extends Product{
         this.owner = owner;
     }
     
-	@Override
-	public void use() {
-        System.out.println(owner + "의 카드를 사용합니다.");
-	}
+    @Override
+    public void use() {
+    	System.out.println(owner + "의 카드를 사용합니다.");
+    }
 	
     public String getOwner() {
         return owner;

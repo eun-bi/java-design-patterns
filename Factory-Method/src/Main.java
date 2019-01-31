@@ -12,9 +12,9 @@ public class Main {
 		 * IDCardFactory를 통해 IDCard를 생산하는 프로그램 */
 		
 		// 공장을 세움
-        Factory factory = new IDCardFactory();
+		Factory factory = new IDCardFactory();
         
-        // 제품 생산
+		// 제품 생산
 		Product card1 = factory.create("홍길동");
         Product card2 = factory.create("이순신");
         Product card3 = factory.create("강감찬");
